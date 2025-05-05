@@ -2,8 +2,8 @@ const int knockSensorPin = A0;
 const int buzzerPin = 8;          
 const int threshold = 100;        
 
-const int tuneNotes[] = {100, 200, 300, 400, 500};  
-const int noteCount = 5;          
+const int tuneNotes[] = {100, 200, 300, 400, 500, 600, 700, 800};  
+const int noteCount = 8;          
 const int noteDuration = 150;     
 
 void setup() {
